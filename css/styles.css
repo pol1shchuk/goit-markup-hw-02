@@ -1,27 +1,60 @@
 body{
-    font-family: 'Roboto','Raleway',sans-serif;
+    font-family: 'Roboto',sans-serif;
     font-weight: Regular;
     font-size: 16px;
-    color:black;
+    color:#434455;
     line-height: 24px;
     letter-spacing: 2%;
     background: #FFF;
     }
     
-    button{
-    background-color: #4D5AE5;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 4%;
-    cursor: pointer;
+    ul{
+    list-style-type: none;
     }
-    
+    a{
+        text-decoration: none;
+    }
+
     button:hover, button:focus{
     background-color: #404BBF;
-    
     }
-    
+
+    header{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+        
+    }
+
+    .header-logo{
+        color: var(--iris, #4D5AE5);
+        text-transform: uppercase;
+        font-family: 'Raleway', sans-serif;
+        letter-spacing: 0.54px;
+        line-height: 1.17;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .header-logo-part{
+     color: var(--navyblue, #2E2F42);
+     }
+
+     .header-nav-link{
+     color: var(--navyblue, #2E2F42);
+    }
+
+    .header-nav-link:hover , .header-nav-link:focus{
+     color: var(--iris, #404BBF);
+    }
+
+    .contacts{
+     font-style: normal;
+    }
+
     .contacts-info{
+        color: #434455;
         text-decoration: none;
         color: inherit;
         font-size: 12px;
@@ -33,3 +66,111 @@ body{
     color: rgba(64, 75, 191, 1);
     text-decoration: underline;
     }
+
+    .section-main{
+    background: var(--navyblue, #2E2F42);
+    }
+
+    .section-main-title{
+        color: var(--white, #FFF);
+        text-align: center;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 1.12px;
+    }
+
+    .section-main-button{
+        background: var(--iris, #4D5AE5);
+        cursor: pointer;
+        letter-spacing: 0.64px;
+        color: var(--white, #FFF);
+        line-height: 1.5;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+      }
+
+      .section-benefits-third-title{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
+        color: var(--navyblue, #2E2F42);
+      }
+      .section-benefits-text{
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+      }
+
+      .section-team{
+        background: var(--cloud, #F4F4FD);
+      }
+      .section-team-list{
+        background-color:#FFFFFF;
+      }
+      .section-team-title{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+        text-align: center;
+        color: var(--navyblue, #2E2F42);
+      }
+      .section-team-photo-title{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
+        color: var(--navyblue, #2E2F42);
+      }
+      .section-team-photo-text{
+        font-weight: 400;
+        line-height: 1.5; 
+        letter-spacing: 0.32px;
+      }
+
+      .section-portfolio-title{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+        text-align: center;
+        color: var(--navyblue, #2E2F42);
+      }
+      
+      .section-portfolio-photo-title{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
+        color: var(--navyblue, #2E2F42);
+      }
+      .section-portfolio-photo-text{
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+      }
+
+      footer{
+        background: var(--navyblue, #2E2F42);
+      }
+      .footer-logo{
+        color: var(--iris, #4D5AE5);
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17; 
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+      }
+      .footer-logo-part{
+        color: var(--cloud, #F4F4FD);
+      }
+      .footer-text{
+        
+        color: var(--cloud, #F4F4FD);
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+      
+      }
